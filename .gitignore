@@ -146,6 +146,7 @@ GitHub.sublime-settings
 !.vscode/extensions.json
 .history
 
+migrations
 back_media
 back_static
 task.txt
