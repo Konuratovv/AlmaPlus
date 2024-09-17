@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include([
         path('services/', include(('apps.services.urls', 'services'), namespace='services')),
+        path('contacts/', include(('apps.contacts.urls', 'contacts'), namespace='contacts')),
     ]))
 ]
