@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'apps.catalog.apps.CatalogConfig',
     'apps.plastpipes.apps.PlastpipesConfig',
     'apps.partners.apps.PartnersConfig',
+    'apps.aboutus.apps.AboutusConfig',
 ]
 
 MIDDLEWARE = [

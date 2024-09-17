@@ -25,5 +25,6 @@ urlpatterns = [
         path('catalog/', include(('apps.catalog.urls', 'catalog'), namespace='catalog')),
         path('plast-pipes/', include(('apps.plastpipes.urls', 'plast-pipes'), namespace='plast-pipes')),
         path('partners/', include(('apps.partners.urls', 'partners'), namespace='partners')),
+        path('about-us/', include(('apps.aboutus.urls', 'about-us'), namespace='about-us')),
     ]))
 ]
