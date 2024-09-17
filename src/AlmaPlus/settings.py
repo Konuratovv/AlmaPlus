@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.common.apps.CommonConfig',
     'apps.services.apps.ServicesConfig',
     'apps.contacts.apps.ContactsConfig',
+    'apps.catalog.apps.CatalogConfig',
 ]
 
 MIDDLEWARE = [
