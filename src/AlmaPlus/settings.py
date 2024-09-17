@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'apps.services.apps.ServicesConfig',
     'apps.contacts.apps.ContactsConfig',
     'apps.catalog.apps.CatalogConfig',
+    'apps.plastpipes.apps.PlastpipesConfig',
 ]
 
 MIDDLEWARE = [
